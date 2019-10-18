@@ -2,7 +2,7 @@
 
 #![doc(
     html_logo_url = "https://raw.githubusercontent.com/tarcieri/bats/batcave/img/cutebat.png",
-    html_root_url = "https://docs.rs/bats/0.0.0"
+    html_root_url = "https://docs.rs/bats/0.1.0"
 )]
 #![warn(missing_docs, rust_2018_idioms)]
 
