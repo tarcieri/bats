@@ -1,0 +1,18 @@
+[package]
+name = "bats"
+description = "A spooooky app for printing bats (and other things) to your terminal"
+version = "0.0.0"
+authors = ["Tony Arcieri <bascule@gmail.com>"]
+edition = "2018"
+readme = "README.md"
+license = "Apache-2.0 OR MIT"
+repository = "https://github.com/NeoBirth/accelerometer.rs"
+categories = ["command-line-utilities"]
+keywords = ["chiroptera", "cli", "spooky", "halloween"]
+
+[dependencies]
+chrono = "0.4"
+crossterm_cursor = "0.3"
+crossterm_terminal = "0.3"
+gumdrop = "0.7"
+rand = "0.7"
