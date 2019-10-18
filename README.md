@@ -1,4 +1,4 @@
-# BATS! [![Crate][crate-img]][crate-link] [![Apache 2.0 OR MIT License][license-image]][license-link]
+# BATS! [![Crate][crate-img]][crate-link] [![Apache 2.0 OR MIT License][license-image]][license-link] [![Build Status][build-image]][build-link]
 
 ## How?
 
@@ -36,5 +36,7 @@ Dual licensed under your choice of either of:
 [crate-link]: https://crates.io/crates/bats
 [license-image]: https://img.shields.io/badge/license-Apache2.0/MIT-blue.svg
 [license-link]: https://github.com/tarcieri/bats/blob/develop/LICENSE-APACHE
+[build-image]: https://github.com/tarcieri/bats/workflows/Rust/badge.svg
+[build-link]: https://github.com/tarcieri/bats/actions
 [Contributor Covenant]: https://www.contributor-covenant.org/
 [CODE_OF_CONDUCT.md]: https://github.com/tarcieri/bats/blob/batcave/CODE_OF_CONDUCT.md
