@@ -19,7 +19,7 @@ pub const BAT: char = '🦇';
 pub const CRAB: char = '🦀';
 
 /// Halloween things
-pub const HALLOWEEN_THINGS: &[char] = &['🦇', '🎃', '👻', '💀', '🕸', '🧙'];
+pub const HALLOWEEN_THINGS: &[char] = &['🧙', '🦇', '🎃', '👻', '💀', '🕸', '🔮', '🌙'];
 
 /// Bats! A spooky bat printer
 #[derive(Debug, Default, Options)]
@@ -77,7 +77,7 @@ impl Bats {
 
     /// Draw a random halloweeny-thing
     pub fn draw_halloween(&self) {
-        self.draw(HALLOWEEN_THINGS[thread_rng().gen_range(0, HALLOWEEN_THINGS.len() - 1)]);
+        self.draw(HALLOWEEN_THINGS[thread_rng().gen_range(0, HALLOWEEN_THINGS.len())]);
     }
 
     /// Draw an arbitrary string
