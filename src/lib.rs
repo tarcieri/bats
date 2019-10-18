@@ -104,7 +104,7 @@ impl Bats {
 
             if pos != end_pos {
                 cursor.goto(pos, y_position).unwrap();
-                terminal.write(" ").unwrap();
+                terminal.write("  ").unwrap();
             }
         }
 
