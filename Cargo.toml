@@ -6,7 +6,7 @@ authors = ["Tony Arcieri <bascule@gmail.com>"]
 edition = "2018"
 readme = "README.md"
 license = "Apache-2.0 OR MIT"
-repository = "https://github.com/NeoBirth/accelerometer.rs"
+repository = "https://github.com/tarcieri/bats"
 categories = ["command-line-utilities"]
 keywords = ["chiroptera", "cli", "spooky", "halloween"]
 
