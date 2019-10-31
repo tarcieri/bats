@@ -6,8 +6,7 @@
 )]
 #![warn(missing_docs, rust_2018_idioms)]
 
-use crossterm_cursor::cursor;
-use crossterm_terminal::terminal;
+use crossterm::{cursor, terminal};
 use gumdrop::Options;
 use rand::{thread_rng, Rng};
 use std::{thread::sleep, time::Duration};
@@ -55,9 +54,7 @@ impl Bats {
         println!("🦇 BATS! 🦇");
         sleep(Duration::from_millis(250));
 
-        terminal()
-            .clear(crossterm_terminal::ClearType::All)
-            .unwrap();
+        terminal().clear(terminal::ClearType::All).unwrap();
 
         let cursor = cursor();
         cursor.hide().unwrap();
@@ -111,7 +108,7 @@ impl Bats {
         if y_position < term_height - 1 {
             cursor.goto(0, y_position + 1).unwrap();
         } else {
-            terminal.clear(crossterm_terminal::ClearType::All).unwrap();
+            terminal.clear(terminal::ClearType::All).unwrap();
             cursor.goto(0, 0).unwrap();
         }
 
