@@ -14,4 +14,4 @@ keywords = ["chiroptera", "cli", "spooky", "halloween"]
 chrono = "0.4"
 crossterm = "0.12"
 gumdrop = "0.7"
-rand = "0.7"
+rand = "0.9"
